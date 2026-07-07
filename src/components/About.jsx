@@ -1,0 +1,42 @@
+import React from 'react';
+import { company, metrics } from '../data/siteData.js';
+
+export default function About() {
+  return (
+    <section className="section about-section" id="quienes-somos">
+      <div className="container about-grid">
+        <div className="about-copy">
+          <span className="section-kicker">Quienes somos</span>
+          <h2>Trayectoria tecnica, respaldo OS10 y presencia en terreno</h2>
+          <p>
+            Seguridad Integral A3 LTDA es una empresa de seguridad electronica con trayectoria desde
+            el ano 2010, especializada en reparacion, instalacion y mantencion de sistemas electronicos
+            de seguridad.
+          </p>
+          <p>
+            La empresa ha prestado servicios para entidades como Patrol, Telefonica del Sur y BACH,
+            entregando soporte tecnico en terreno y soluciones integrales para clientes residenciales,
+            comunitarios, comerciales e industriales.
+          </p>
+          <div className="coverage-box">
+            <strong>Cobertura operativa</strong>
+            <span>{company.coverage}</span>
+          </div>
+        </div>
+
+        <div className="metric-grid">
+          {metrics.map((metric) => {
+            const Icon = metric.icon;
+            return (
+              <div className="metric-card" key={`${metric.value}-${metric.label}`}>
+                <Icon size={24} aria-hidden="true" />
+                <strong>{metric.value}</strong>
+                <span>{metric.label}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
