@@ -3,7 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 import { buildWhatsAppUrl, ctaLabels, navItems } from '../data/siteData.js';
 
-export default function Header() {
+export default function Header({ currentHash }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const closeMenu = () => setIsOpen(false);
@@ -28,7 +28,12 @@ export default function Header() {
 
         <nav className={`main-nav ${isOpen ? 'is-open' : ''}`} aria-label="Navegacion principal">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} onClick={closeMenu}>
+            <a
+              key={item.href}
+              className={currentHash === item.href ? 'is-active' : undefined}
+              href={item.href}
+              onClick={closeMenu}
+            >
               {item.label}
             </a>
           ))}
