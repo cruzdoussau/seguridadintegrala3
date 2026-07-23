@@ -1,6 +1,6 @@
-# Seguridad Integral A3 LTDA - Landing Page
+# MT Technology - Landing Page
 
-Landing page profesional para venta de servicios de seguridad electronica de Seguridad Integral A3 LTDA.
+Landing page profesional para venta de servicios de seguridad electronica de MT Technology.
 
 ## Stack
 
@@ -75,5 +75,5 @@ Todos los llamados a la accion abren WhatsApp con un mensaje prellenado. El form
 Link principal:
 
 ```text
-https://wa.me/56967524299?text=Hola,%20quiero%20cotizar%20un%20servicio%20de%20Seguridad%20Integral%20A3
+https://wa.me/56967524299?text=Hola,%20quiero%20cotizar%20un%20servicio%20con%20MT%20Technology
 ```

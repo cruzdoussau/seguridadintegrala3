@@ -1,4 +1,4 @@
-import { Mail, MapPin, MessageCircle, Phone, Send } from 'lucide-react';
+import { MapPin, MessageCircle, Phone, Send } from 'lucide-react';
 import React from 'react';
 import { useState } from 'react';
 import { buildWhatsAppUrl, company, ctaLabels, services } from '../data/siteData.js';
@@ -22,7 +22,7 @@ export default function Contact() {
   const submitToWhatsApp = (event) => {
     event.preventDefault();
     const message = [
-      'Hola, quiero cotizar con Seguridad Integral A3.',
+      'Hola, quiero cotizar con MT Technology.',
       `Nombre: ${form.name}`,
       `Telefono: ${form.phone}`,
       `Correo: ${form.email}`,
@@ -48,10 +48,12 @@ export default function Contact() {
               <Phone size={20} aria-hidden="true" />
               <span>{company.phones.join(' / ')}</span>
             </a>
-            <a href={`mailto:${company.emails[0]}`}>
-              <Mail size={20} aria-hidden="true" />
-              <span>{company.emails.join(' / ')}</span>
-            </a>
+            {company.emails.length > 0 && (
+              <a href={`mailto:${company.emails[0]}`}>
+                <Mail size={20} aria-hidden="true" />
+                <span>{company.emails.join(' / ')}</span>
+              </a>
+            )}
             <span>
               <MapPin size={20} aria-hidden="true" />
               {company.address}

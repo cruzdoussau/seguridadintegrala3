@@ -12,11 +12,11 @@ app.use(express.json());
 
 app.get('/api/company', (_req, res) => {
   res.json({
-    name: 'Seguridad Integral A3 LTDA',
-    fantasyName: 'A3',
+    name: 'MT Technology',
+    fantasyName: 'MT Technology',
     address: 'Acuario 5332, Lo Prado, Santiago, Chile',
     phones: ['+56 9 6752 4299', '+56 9 9430 1761'],
-    emails: ['rfmartinez@seguridada3.cl', 'robinfernadeza3@seguridada3.cl'],
+    emails: [],
     legalRepresentative: 'Raul Martinez Pena',
     os10: true,
     since: 2010
@@ -45,5 +45,5 @@ if (!useViteDev) {
 }
 
 app.listen(port, () => {
-  console.log(`Seguridad Integral A3 disponible en http://localhost:${port}`);
+  console.log(`MT Technology disponible en http://localhost:${port}`);
 });

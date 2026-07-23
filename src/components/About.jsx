@@ -9,9 +9,8 @@ export default function About() {
           <span className="section-kicker">Quienes somos</span>
           <h2>Trayectoria tecnica, respaldo OS10 y presencia en terreno</h2>
           <p>
-            Seguridad Integral A3 LTDA es una empresa de seguridad electronica con trayectoria desde
-            el ano 2010, especializada en reparacion, instalacion y mantencion de sistemas electronicos
-            de seguridad.
+            MT Technology es una empresa de seguridad electronica con trayectoria desde el ano 2010,
+            especializada en reparacion, instalacion y mantencion de sistemas electronicos de seguridad.
           </p>
           <p>
             La empresa ha prestado servicios para entidades como Patrol, Telefonica del Sur y BACH,

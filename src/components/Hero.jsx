@@ -18,7 +18,7 @@ export default function Hero() {
             <BadgeCheck size={18} aria-hidden="true" />
             Empresa con OS10 vigente
           </div>
-          <h1>Seguridad Integral A3</h1>
+          <h1>MT Technology</h1>
           <p className="hero-tagline">Tu seguridad es nuestra prioridad</p>
           <p className="hero-lead">
             Seguridad electronica profesional para empresas, hogares y comunidades. Alarmas, CCTV,

@@ -23,15 +23,15 @@ import {
 export const whatsappNumber = '56967524299';
 
 export const defaultWhatsAppMessage =
-  'Hola, quiero cotizar un servicio de Seguridad Integral A3';
+  'Hola, quiero cotizar un servicio con MT Technology';
 
 export const company = {
-  name: 'Seguridad Integral A3 LTDA',
-  shortName: 'Seguridad Integral A3',
-  fantasyName: 'A3',
+  name: 'MT Technology',
+  shortName: 'MT Technology',
+  fantasyName: 'MT Technology',
   address: 'Acuario 5332, Lo Prado, Santiago, Chile',
   phones: ['+56 9 6752 4299', '+56 9 9430 1761'],
-  emails: ['rfmartinez@seguridada3.cl', 'robinfernadeza3@seguridada3.cl'],
+  emails: [],
   legalRepresentative: 'Raul Martinez Pena',
   since: 2010,
   coverage:

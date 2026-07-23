@@ -12,7 +12,8 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href="#inicio" aria-label="Ir al inicio">
-          <img src="/assets/a3-logo.png" alt="Seguridad Integral A3" />
+          <img className="brand-mark-img" src="/assets/mt-technology-mark.svg" alt="" aria-hidden="true" />
+          <span className="brand-word">Technology</span>
         </a>
 
         <button
