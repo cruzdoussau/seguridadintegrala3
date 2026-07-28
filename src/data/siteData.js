@@ -101,9 +101,9 @@ export const installationKits = [
   {
     icon: AlarmClockCheck,
     name: 'Alarma WiFi hogar',
-    badge: 'EZVIZ WiFi',
+    badge: 'Dahua WiFi',
     summary:
-      'Solucion inalambrica para casas, departamentos y oficinas pequenas, basada en kits WiFi tipo EZVIZ.',
+      'Solucion inalambrica para casas, departamentos y oficinas pequenas, basada en kits WiFi tipo Dahua.',
     includes: [
       'Panel de alarma WiFi y app movil',
       'Sensores magneticos y PIR segun puntos criticos',
@@ -115,7 +115,7 @@ export const installationKits = [
   {
     icon: AlarmClockCheck,
     name: 'Alarma profesional WiFi + 4G',
-    badge: 'EZVIZ o equivalente',
+    badge: 'Dahua o equivalente',
     summary:
       'Solucion de alarma inalambrica con respaldo de comunicacion GSM/3G/4G para negocios, bodegas y oficinas.',
     includes: [
@@ -171,7 +171,7 @@ export const installationKits = [
   {
     icon: Fingerprint,
     name: 'Control de acceso facial/huella',
-    badge: 'EZVIZ o equivalente',
+    badge: 'Dahua o equivalente',
     summary:
       'Solucion para administrar ingreso de personas con reconocimiento facial, huella, tarjeta o clave.',
     includes: [
