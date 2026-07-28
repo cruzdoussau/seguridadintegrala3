@@ -7,15 +7,15 @@ export default function About() {
       <div className="container about-grid">
         <div className="about-copy">
           <span className="section-kicker">Quienes somos</span>
-          <h2>Trayectoria tecnica, respaldo OS10 y presencia en terreno</h2>
+          <h2>Trayectoria tecnica, grandes clientes y presencia en terreno</h2>
           <p>
-            MT Technology es una empresa de seguridad electronica con trayectoria desde el ano 2010,
-            especializada en reparacion, instalacion y mantencion de sistemas electronicos de seguridad.
+            MT Technology es una empresa de seguridad electronica y telecomunicaciones con trayectoria
+            desde el ano 2010, especializada en reparacion, instalacion y mantencion de sistemas
+            electronicos de seguridad y conectividad.
           </p>
           <p>
-            La empresa ha prestado servicios para entidades como Patrol, Telefonica del Sur y BACH,
-            entregando soporte tecnico en terreno y soluciones integrales para clientes residenciales,
-            comunitarios, comerciales e industriales.
+            La empresa ha prestado servicios para grandes clientes, entregando soporte tecnico en terreno
+            y soluciones integrales para clientes residenciales, comunitarios, comerciales e industriales.
           </p>
           <div className="coverage-box">
             <strong>Cobertura operativa</strong>

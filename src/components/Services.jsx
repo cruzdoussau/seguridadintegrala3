@@ -8,7 +8,7 @@ export default function Services() {
       <div className="container">
         <div className="section-heading">
           <span className="section-kicker">Nuestros servicios</span>
-          <h2>Soluciones de seguridad electronica para cada tipo de propiedad</h2>
+          <h2>Soluciones de seguridad electronica y telecomunicaciones para cada tipo de propiedad</h2>
           <p>
             Instalamos, reparamos y mantenemos sistemas confiables para clientes residenciales,
             comunitarios, comerciales e industriales.

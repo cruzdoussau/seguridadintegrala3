@@ -10,9 +10,9 @@ export default function WhyChooseUs() {
           <span className="section-kicker">Por que elegirnos</span>
           <h2>Personal Capacitado</h2>
           <p>
-            Nuestro equipo tecnico cuenta con certificacion OS10 vigente, experiencia comprobada en
-            terreno y preparacion para ejecutar instalaciones, mantenciones y soporte de seguridad
-            electronica.
+            Nuestro equipo tecnico cuenta con experiencia comprobada en terreno y preparacion para
+            ejecutar instalaciones, mantenciones y soporte de seguridad electronica, redes y
+            telecomunicaciones.
           </p>
           <a className="button button-whatsapp" href={buildWhatsAppUrl()} target="_blank" rel="noreferrer">
             <MessageCircle size={19} aria-hidden="true" />

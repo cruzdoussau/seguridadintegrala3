@@ -14,6 +14,7 @@ import {
   Home,
   MapPinned,
   MessagesSquare,
+  RadioTower,
   ShieldCheck,
   Users,
   Wrench,
@@ -83,6 +84,12 @@ export const services = [
       'Instalacion de sistemas de deteccion, extincion, redes humedas, redes secas y redes de incendio.'
   },
   {
+    icon: RadioTower,
+    title: 'Telecomunicaciones',
+    description:
+      'Instalacion y ordenamiento de redes, cableado estructurado, enlaces, puntos de datos y soporte para conectividad.'
+  },
+  {
     icon: Wrench,
     title: 'Mantencion y soporte tecnico',
     description:
@@ -94,9 +101,9 @@ export const installationKits = [
   {
     icon: AlarmClockCheck,
     name: 'Alarma WiFi hogar',
-    badge: 'Hikvision AX HOME',
+    badge: 'EZVIZ WiFi',
     summary:
-      'Solucion inalambrica para casas, departamentos y oficinas pequenas, basada en kits WiFi tipo AX HOME.',
+      'Solucion inalambrica para casas, departamentos y oficinas pequenas, basada en kits WiFi tipo EZVIZ.',
     includes: [
       'Panel de alarma WiFi y app movil',
       'Sensores magneticos y PIR segun puntos criticos',
@@ -108,7 +115,7 @@ export const installationKits = [
   {
     icon: AlarmClockCheck,
     name: 'Alarma profesional WiFi + 4G',
-    badge: 'Hikvision AX PRO',
+    badge: 'EZVIZ o equivalente',
     summary:
       'Solucion de alarma inalambrica con respaldo de comunicacion GSM/3G/4G para negocios, bodegas y oficinas.',
     includes: [
@@ -164,7 +171,7 @@ export const installationKits = [
   {
     icon: Fingerprint,
     name: 'Control de acceso facial/huella',
-    badge: 'Hikvision o equivalente',
+    badge: 'EZVIZ o equivalente',
     summary:
       'Solucion para administrar ingreso de personas con reconocimiento facial, huella, tarjeta o clave.',
     includes: [
@@ -210,13 +217,13 @@ export const metrics = [
   { icon: Users, value: '25', label: 'tecnicos en terreno' },
   { icon: Building2, value: '5', label: 'personas en equipo administrativo' },
   { icon: ClipboardCheck, value: '+1.000', label: 'actividades mensuales' },
-  { icon: BadgeCheck, value: 'OS10', label: 'tecnicos certificados' },
+  { icon: RadioTower, value: 'Redes', label: 'telecomunicaciones y conectividad' },
   { icon: MapPinned, value: '7 zonas', label: 'cobertura operativa en Chile' }
 ];
 
 export const benefits = [
   { icon: Award, title: 'Experiencia comprobada' },
-  { icon: BadgeCheck, title: 'Tecnicos acreditados OS10' },
+  { icon: BadgeCheck, title: 'Equipo tecnico especializado' },
   { icon: MapPinned, title: 'Cobertura en distintas ciudades' },
   { icon: Home, title: 'Soluciones para hogares, empresas y comunidades' },
   { icon: ShieldCheck, title: 'Instalacion profesional' },
@@ -226,7 +233,7 @@ export const benefits = [
 ];
 
 export const trustPoints = [
-  'Tecnicos certificados OS10',
+  'Equipo tecnico especializado',
   'Cobertura en distintas ciudades de Chile',
   'Mas de 1.000 actividades mensuales'
 ];
@@ -237,6 +244,7 @@ export const footerServices = [
   'Control de acceso',
   'Cercos electricos',
   'Deteccion de incendios',
+  'Telecomunicaciones',
   'Mantencion'
 ];
 

@@ -16,13 +16,13 @@ export default function Hero() {
         <div className="hero-content">
           <div className="eyebrow">
             <BadgeCheck size={18} aria-hidden="true" />
-            Empresa con OS10 vigente
+            Seguridad electronica y telecomunicaciones
           </div>
           <h1>MT Technology</h1>
           <p className="hero-tagline">Tu seguridad es nuestra prioridad</p>
           <p className="hero-lead">
             Seguridad electronica profesional para empresas, hogares y comunidades. Alarmas, CCTV,
-            control de acceso, cercos electricos y deteccion de incendios.
+            control de acceso, cercos electricos, deteccion de incendios y telecomunicaciones.
           </p>
           <div className="hero-divider" />
           <div className="hero-pillars" aria-label="Servicios principales">

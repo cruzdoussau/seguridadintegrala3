@@ -18,7 +18,6 @@ app.get('/api/company', (_req, res) => {
     phones: ['+56 9 6752 4299', '+56 9 9430 1761'],
     emails: [],
     legalRepresentative: 'Raul Martinez Pena',
-    os10: true,
     since: 2010
   });
 });
